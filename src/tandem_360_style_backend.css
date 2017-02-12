@@ -1,0 +1,40 @@
+#ad_spot_wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.8);
+  overflow-y: auto;
+  display: none; }
+
+.hot_inner {
+  max-width: 920px;
+  width: 100%;
+  position: relative;
+  margin: 100px auto;
+  background: #DDD;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box; }
+
+.tandem_360_new_frames_field_label {
+  width: 50px;
+  display: inline-block; }
+
+.tandem360buttons {
+  text-align: right; }
+  .tandem360buttons .button:first-child {
+    margin-right: 10px; }
+
+#close_tandem_360 {
+  display: block;
+  font-size: 30px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  text-decoration: none; }
